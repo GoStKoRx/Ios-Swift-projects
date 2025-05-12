@@ -46,7 +46,7 @@ class ViewController: UIViewController {
         if let ilkSayı = Int(sayıBir.text!) {
             if let ikinciSayı = Int(sayıİki.text!) {
                 
-                result = ilkSayı + ikinciSayı
+                result = ilkSayı - ikinciSayı
                 
                 Sonuç.text = String(result)
                 
@@ -65,7 +65,7 @@ class ViewController: UIViewController {
         if let ilkSayı = Int(sayıBir.text!) {
             if let ikinciSayı = Int(sayıİki.text!) {
                 
-                result = ilkSayı + ikinciSayı
+                result = ilkSayı * ikinciSayı
                 
                 Sonuç.text = String(result)
                 
@@ -83,7 +83,7 @@ class ViewController: UIViewController {
         if let ilkSayı = Int(sayıBir.text!) {
             if let ikinciSayı = Int(sayıİki.text!) {
                 
-                result = ilkSayı + ikinciSayı
+                result = ilkSayı / ikinciSayı
                 
                 Sonuç.text = String(result)
                 
